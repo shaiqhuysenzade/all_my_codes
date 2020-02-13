@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class Homework1 {
     public static void main(String[] args) {
         Random rn = new Random();
-//        ArrayList<Integer> users_numbers = new ArrayList();
+        ArrayList<Integer> users_numbers = new ArrayList();
         //random number choosing by system
         int random_number = rn.nextInt(100);
         int count=0;
-        System.out.println(random_number);
+//        System.out.println(random_number);
         System.out.println("Let the game begin!");
         Scanner in = new Scanner(System.in);
         //name entry
@@ -22,7 +22,7 @@ public class Homework1 {
         while (true) {
             System.out.println("Enter your number ");
             int number = in.nextInt();
-//            users_numbers.add(number);
+            users_numbers.add(number);
             if (number == random_number) {
                 count++;
                 System.out.println("Congratulations, " + name);
@@ -36,9 +36,9 @@ public class Homework1 {
             }
         }
         System.out.println(count);
-//        Collections.reverse(users_numbers);
-//        for (int i : users_numbers) {
-//            System.out.print(i + " ");
-//        }
+        Collections.reverse(users_numbers);
+        for (int i : users_numbers) {
+            System.out.print("Your numbers are : "+i + " ");
+        }
     }
 }

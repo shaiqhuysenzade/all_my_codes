@@ -1,63 +1,58 @@
 package homeworks;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Homework2 {
     public static void main(String[] args) {
-        String[][] scedule = new String[7][2];
-        scedule[0][0] = "Sunday";
-        scedule[0][1] = "do home work";
-        scedule[1][0] = "Monday";
-        scedule[1][1] = "go to courses; watch a film";
-        scedule[2][0] = "Tuesday";
-        scedule[2][1] = "go to school";
-        scedule[3][0] = "Wednesday";
-        scedule[3][1] = "go to the pool";
-        scedule[4][0] = "Thursday";
-        scedule[4][1] = "spend time with family";
-        scedule[5][0] = "Friday";
-        scedule[5][1] = "learning something new";
-        scedule[6][0] = "Saturday";
-        scedule[6][1] = "spend time with friends";
+        System.out.println("All set. Get ready to rumble!");
+        int row;
+        int column;
+        char[][] square = new char[6][6];
+        for (int i = 0; i <= 5; i++) {
+            for (int j = 0; j <= 5; j++) {
+                square[i][j] = '-';
+            }
+        }
         Scanner in = new Scanner(System.in);
 
-        String s = "shaiq";
-        for (; ; ) {
-            System.out.println("Please, input the day of the week:");
-            String input = in.nextLine();
-            if(input.equalsIgnoreCase("exit")){
-                break;
+        Random r = new Random();
+        int q = r.nextInt(5);
+        int w = r.nextInt(5);
+        do {
+            System.out.println("Enter guess row from 1 to 5 :");
+            row = in.nextInt();
+            if (row > 5 || row < 1) {
+                System.out.println("Enter only from 1 to 5 ");
             }
-            switch (input.toLowerCase()) {
-                case "monday":
-                    System.out.println(scedule[1][1]);
-                    break;
-                case "tuesday":
-                    System.out.println(scedule[2][1]);
-                    break;
-                case "wednesday":
-                    System.out.println(scedule[3][1]);
-                    break;
-                case "thursday":
-                    System.out.println(scedule[4][1]);
-                    break;
-                case "friday":
-                    System.out.println(scedule[5][1]);
-                    break;
-                case "saturday":
-                    System.out.println(scedule[6][1]);
-                    break;
-                case "sunday":
-                    System.out.println(scedule[0][1]);
-                    break;
-                default:
-                    System.out.println("Sorry, I don't understand you, please try again.");
-
+            System.out.println("Enter guess column from 1 to 5 : ");
+            column = in.nextInt();
+            if (column > 5 || column < 1) {
+                System.out.println("Enter guess column : ");
+            }
+            square[q][w]='x';
+            if(square[row][column]!=square[q][w]){
+                square[row][column]='*';
+                for(int i=1;i<=5;i++){
+                    for(int j=1;j<=5;j++){
+                        if(square[i][j]=='x'){
+                            System.out.print(" - | ");
+                        }else{
+                            System.out.print(" " + square[i][j] + " | ");
+                        }
+                    }
+                    System.out.println();
+                }
+            }else {
+                System.out.println("You have won");
+                for (int i = 0; i <= 5; i++) {
+                    for (int j = 0; j <= 5; j++) {
+                        System.out.print(" " + square[i][j] + " | ");
+                    }
+                    System.out.println();
+                }
             }
 
-
-        }
-
-
+        } while (square[row][column] != square[q][w]);
     }
 }
