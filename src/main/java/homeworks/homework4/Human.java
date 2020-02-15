@@ -1,5 +1,6 @@
 package homeworks.homework4;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Human {
@@ -12,6 +13,31 @@ public class Human {
     private Human father;
     private Human mother;
     private String shedule [][]=new String[7][2];
+    public Human(){}
+
+    public Human(String name, String surname, int year) {
+        this.name = name;
+        this.surname = surname;
+        this.year = year;
+    }
+
+    public Human(String name, String surname, int year,Human father, Human mother) {
+        this.name = name;
+        this.surname = surname;
+        this.year = year;
+        this.father = father;
+        this.mother = mother;
+    }
+
+    public Human(String name, String surname, int year, Pet pet, Human father, Human mother, String[][] shedule) {
+        this.name = name;
+        this.surname = surname;
+        this.year = year;
+        this.pet = pet;
+        this.father = father;
+        this.mother = mother;
+        this.shedule = shedule;
+    }
 
     public String getName() {
         return name;
@@ -84,5 +110,19 @@ public class Human {
             v=" почти не хитрый";
         }
         System.out.println("У меня есть " +pet.getSpecies()+ ", ему " +pet.getAge() + "  лет, он" + v);
+    }
+
+    @Override
+    public String toString() {
+        return "Human{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", year=" + year +
+                ", iq = " + iq +
+                ", mother=" + mother.name +
+                ", father=" + father.name +
+                ", pet=" + pet +
+//                ", shedule=" + Arrays.toString(shedule) +
+                '}';
     }
 }
