@@ -21,18 +21,14 @@ public class Homework1 {
             System.out.println("Enter your number ");
             int number = in.nextInt();
             count++;
+            arrayOfNumbers[i] = number;
+            i++;
             if (number == random_number) {
-                arrayOfNumbers[i] = number;
-                i++;
                 System.out.println("Congratulations, " + name);
                 break;
             } else if (number < random_number) {
-                arrayOfNumbers[i] = number;
-                i++;
                 System.out.println("Your number is too small. Please, try again.");
             } else if (number > random_number) {
-                arrayOfNumbers[i] = number;
-                i++;
                 System.out.println("Your number is too big. Please, try again.");
             }
         }
