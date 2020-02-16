@@ -18,18 +18,23 @@ public class Homework1 {
         //create loop
         int i = 0;
         while (true) {
-            System.out.println("Enter your number ");
-            int number = in.nextInt();
-            count++;
-            arrayOfNumbers[i] = number;
-            i++;
-            if (number == random_number) {
-                System.out.println("Congratulations, " + name);
-                break;
-            } else if (number < random_number) {
-                System.out.println("Your number is too small. Please, try again.");
-            } else if (number > random_number) {
-                System.out.println("Your number is too big. Please, try again.");
+            try {
+                System.out.println("Enter your number ");
+                String n = in.nextLine();
+                int number = Integer.parseInt(n);
+                count++;
+                arrayOfNumbers[i] = number;
+                i++;
+                if (number == random_number) {
+                    System.out.println("Congratulations, " + name);
+                    break;
+                } else if (number < random_number) {
+                    System.out.println("Your number is too small. Please, try again.");
+                } else if (number > random_number) {
+                    System.out.println("Your number is too big. Please, try again.");
+                }
+            } catch (NumberFormatException n) {
+                System.out.println("Please enter a number : ");
             }
         }
         System.out.println("Your input " + count + " numbers ");
@@ -51,4 +56,3 @@ public class Homework1 {
         }
     }
 }
-
