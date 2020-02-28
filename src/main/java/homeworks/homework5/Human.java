@@ -1,6 +1,4 @@
-package homeworks.Homework5;
-
-import homeworks.homework4.Pet;
+package homeworks.homework5;
 
 import java.util.Arrays;
 import java.util.Random;

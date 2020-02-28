@@ -1,6 +1,4 @@
-package homeworks.Homework5;
-
-import java.util.Arrays;
+package homeworks.homework5;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,11 +36,11 @@ public class Main {
 
         //using method addChild() to add child2
         f.setChildren(f.addChild(childArray, child2));
-
+        System.out.println(f.countOfFamily());
+        System.out.println(f.toString());
 
         //open from comment  to delete second child from childArray
-        //f.setChildren(f.deleteChild(childArray,h2));
-
+           f.deleteChildByIndex(1);
         //output family members
         System.out.println(f.toString());
 

@@ -1,4 +1,4 @@
-package homeworks.Homework5;
+package homeworks.homework5;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -80,9 +80,24 @@ public class Family {
         }
         return newChildArray;
     }
-
-    //method for deleting child(Human) from array of Children
-    public static Human[] deleteChild(Human child[], Human pointedChild) {
+    //method for deleting child(Human) from array of Children by index
+    public void deleteChildByIndex (int i) {
+        int n = children.length-1;
+        if (children != null) {
+            Human[] newChildArray = new Human[n];
+            for (int k = 0; k < children.length; k++) {
+                if (k< i) {
+                    newChildArray[k] = children[k];
+                } else if (k > i) {
+                    System.out.print(k + " ");
+                    newChildArray[k - 1] = children[k];
+                }
+            }
+            children = newChildArray;
+        }
+    }
+    //method for deleting child(Human) from array of Children by object
+    public static Human[] deleteChildByObject(Human child[], Human pointedChild) {
         int n = child.length;
         int count = 0;
         Human[] newChildArray = new Human[n - 1];
