@@ -2,6 +2,7 @@ package homeworks.homework5;
 
 
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Random;
 
 public class Pet {
@@ -75,6 +76,21 @@ public class Pet {
 
     public void foul() {
         System.out.println("Нужно хорошо замести следы...");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pet pet = (Pet) o;
+        return Objects.equals(species, pet.species) &&
+                Objects.equals(nickname, pet.nickname);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(species, nickname);
     }
 
     @Override

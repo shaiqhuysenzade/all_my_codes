@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         //creating first child reference for Human object
+
         Human child1 = new Human();
         child1.setName("Shaiq");
         child1.setSurname("Huseynzade");
@@ -38,7 +39,6 @@ public class Main {
         f.setChildren(f.addChild(childArray, child2));
         System.out.println(f.countOfFamily());
         System.out.println(f.toString());
-
         //open from comment  to delete second child from childArray
            f.deleteChildByIndex(1);
         //output family members
@@ -46,6 +46,7 @@ public class Main {
 
         //output  the amount of family members
         System.out.println(f.countOfFamily());
+        System.runFinalization();
 
     }
 }

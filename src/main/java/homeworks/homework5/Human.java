@@ -1,6 +1,7 @@
 package homeworks.homework5;
 
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Random;
 
 public class Human {
@@ -68,5 +69,27 @@ public class Human {
                 ", iq = " + iq +
                 ", shedule=" + Arrays.deepToString(shedule) +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Human human = (Human) o;
+        return year == human.year &&
+                Objects.equals(family, human.family) &&
+                Objects.equals(name, human.name) &&
+                Objects.equals(surname, human.surname);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(family, name, surname, year);
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println("This object was deleted" + this);
     }
 }
