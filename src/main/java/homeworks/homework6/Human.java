@@ -16,6 +16,11 @@ public class Human {
 
     public Human() {
     }
+    public Human(String name , String surname, int year){
+        this.name=name;
+        this.surname=surname;
+        this.year=year;
+    }
 
     public Family getFamily() {
         return family;
@@ -83,5 +88,7 @@ public class Human {
                 ", shedule=" + Arrays.deepToString(shedule) +
                 '}';
     }
+
+
 }
 
