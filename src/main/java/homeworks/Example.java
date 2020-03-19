@@ -1,6 +1,7 @@
 package homeworks;
 
 import javax.xml.bind.ParseConversionEvent;
+import java.lang.reflect.Array;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -55,9 +56,17 @@ public class Example {
 //        byte op2 = 5;
 //        byte myResultingByte = (byte)x;
 //        System.out.println(b3);
-        Random r = new Random(100);
-        System.out.println(r.nextInt());
-
+        int child [] = new int[]{2,3};
+        int n = child.length;
+        int count = 0;
+        int [] newChildArray = new int[n - 1];
+        for (int i = 0, k = 0; i < child.length; i++) {
+            if (child[i] != 3) {
+                newChildArray[k++] = child[i];
+//                count++;
+            }
+        }
+        System.out.println(Arrays.toString(newChildArray));
     }
 
 
