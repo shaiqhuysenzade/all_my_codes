@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18809622-4f82-4c02-9970-e13850e39d8c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/DomesticCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/PetInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/RoboCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework7/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/DomesticCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/PetInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/RoboCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeworks/Homework8/FamilyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homeworks/homework6/FamilyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeworks/homework6/FamilyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,163 +27,164 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Pet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-719">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Fish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Man.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Man.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-              <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-413">
-              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-              <folding>
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Woman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Woman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-              <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DomesticCat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/DomesticCat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework6/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoboCat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/RoboCat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="FamilyTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/Homework8/FamilyTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="185">
+                  <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1321#1322#0" expanded="true" />
+                    <element signature="e#1364#1365#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DomesticCat.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/DomesticCat.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="54">
+                  <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#228#229#0" expanded="true" />
+                    <element signature="e#288#289#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RoboCat.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/RoboCat.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Dog.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="63">
+                  <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Fish.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Fish.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="122">
+                  <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="27" selection-end-column="52" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Pet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Family.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Family.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="219">
+                  <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#895#896#0" expanded="true" />
+                    <element signature="e#935#936#0" expanded="true" />
+                    <element signature="e#1069#1070#0" expanded="true" />
+                    <element signature="e#1095#1096#0" expanded="true" />
+                    <element signature="e#1135#1136#0" expanded="true" />
+                    <element signature="e#1165#1166#0" expanded="true" />
+                    <element signature="e#1195#1196#0" expanded="true" />
+                    <element signature="e#1259#1260#0" expanded="true" />
+                    <element signature="e#2092#2093#0" expanded="true" />
+                    <element signature="e#2153#2154#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/List.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="127">
+                  <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FamilyTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/homework6/FamilyTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="10" selection-start-line="10" selection-end-line="30" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="FamilyTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/homework6/FamilyTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Family.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework6/Family.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-104">
+                  <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1035#1036#0" expanded="true" />
+                    <element signature="e#1101#1102#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="JavaFXApplication" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -193,15 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework03.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/another.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework4/Random.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework4/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework4/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework5/Example.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework5/Pet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework5/Human.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework1.java" />
         <option value="$PROJECT_DIR$/src/main/java/homeworks/homework4/RandomFunction.java" />
@@ -243,7 +235,16 @@
         <option value="$PROJECT_DIR$/src/main/java/homeworks/homework7/Human.java" />
         <option value="$PROJECT_DIR$/src/main/java/homeworks/homework7/Woman.java" />
         <option value="$PROJECT_DIR$/src/main/java/homeworks/homework7/Man.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework7/Family.java" />
         <option value="$PROJECT_DIR$/src/main/java/homeworks/homework7/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework8/DomesticCat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework8/RoboCat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Fish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homeworks/Homework8/Family.java" />
+        <option value="$PROJECT_DIR$/src/test/java/homeworks/Homework8/FamilyTest.java" />
       </list>
     </option>
   </component>
@@ -331,6 +332,15 @@
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,6 +349,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,6 +388,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="homeworks.Homework8" />
       <recent name="homeworks.homework6" />
       <recent name="homeworks.homework5" />
     </key>
@@ -373,6 +401,7 @@
       <recent name="homeworks.Homework5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks\Homework8" />
       <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks\homework7" />
       <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java" />
       <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks" />
@@ -390,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FamilyTest.addChild">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeworks.homework7.Main" />
       <module name="all_my_codes" />
@@ -416,19 +445,19 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FamilyTest.deleteChildByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyTest.addChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="all_my_codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworks.homework6.*" />
+          <option name="PATTERN" value="homeworks.Homework8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="homeworks.homework6" />
-      <option name="MAIN_CLASS_NAME" value="homeworks.homework6.FamilyTest" />
-      <option name="METHOD_NAME" value="deleteChildByIndex" />
+      <option name="PACKAGE_NAME" value="homeworks.Homework8" />
+      <option name="MAIN_CLASS_NAME" value="homeworks.Homework8.FamilyTest" />
+      <option name="METHOD_NAME" value="addChild" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -547,19 +576,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FamilyTest.deleteChildByIndex" />
       <item itemvalue="JUnit.FamilyTest.deleteChildByObject1" />
       <item itemvalue="JUnit.FamilyTest.deleteChildByObject1False" />
       <item itemvalue="JUnit.FamilyTest.testingToString" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.FamilyTest.addChild" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FamilyTest.addChild" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FamilyTest.testingToString" />
         <item itemvalue="JUnit.FamilyTest.deleteChildByObject1False" />
         <item itemvalue="JUnit.FamilyTest.deleteChildByObject1" />
-        <item itemvalue="JUnit.FamilyTest.deleteChildByIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -580,7 +609,7 @@
       <workItem from="1582675255378" duration="18351000" />
       <workItem from="1583176133730" duration="5274000" />
       <workItem from="1583653212101" duration="3949000" />
-      <workItem from="1584465932172" duration="22087000" />
+      <workItem from="1584465932172" duration="28770000" />
     </task>
     <task id="LOCAL-00001" summary="--simple homework1--">
       <created>1581277470892</created>
@@ -670,18 +699,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FamilyTest_deleteChildByIndex - 2020.03.19 at 02h 04m 06s.xml">
-      <configuration name="FamilyTest.deleteChildByIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyTest_deleteChildByIndex - 2020.03.19 at 02h 04m 18s.xml">
-      <configuration name="FamilyTest.deleteChildByIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyTest_deleteChildByIndex - 2020.03.19 at 02h 04m 33s.xml">
-      <configuration name="FamilyTest.deleteChildByIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyTest_deleteChildByIndex - 2020.03.19 at 02h 04m 44s.xml">
-      <configuration name="FamilyTest.deleteChildByIndex" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FamilyTest_deleteChildByIndex - 2020.03.19 at 02h 04m 59s.xml">
       <configuration name="FamilyTest.deleteChildByIndex" configurationId="JUnit" />
     </history-entry>
@@ -700,9 +717,21 @@
     <history-entry file="FamilyTest_testingToString - 2020.03.20 at 03h 36m 04s.xml">
       <configuration name="FamilyTest.testingToString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FamilyTest_addChild - 2020.03.21 at 17h 49m 06s.xml">
+      <configuration name="FamilyTest.addChild" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyTest_addChild - 2020.03.21 at 17h 53m 41s.xml">
+      <configuration name="FamilyTest.addChild" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyTest_addChild - 2020.03.21 at 17h 53m 53s.xml">
+      <configuration name="FamilyTest.addChild" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyTest_addChild - 2020.03.21 at 18h 15m 16s.xml">
+      <configuration name="FamilyTest.addChild" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128539000" />
+    <option name="totallyTimeSpent" value="135222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -718,11 +747,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34150326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34150326" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.32843137" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987593" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987593" visible="true" weight="0.19440243" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info id="Structure" order="1" sideWeight="0.5012407" side_tool="true" weight="0.19440243" />
@@ -800,63 +829,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework4/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/ex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/FlightsController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/BookingController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BookingDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/FlightsDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Booking.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Cities.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Flights.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generation/RandomFlights.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/FlightsServices.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -966,23 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/homework6/FamilyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/DayOfWeek.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1019,18 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework6/Family.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="152" column="31" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1055,13 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Family.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1113,13 +1049,6 @@
           <folding>
             <element signature="e#229#230#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-719">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1179,13 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework6/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Man.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1201,10 +1123,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Species.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/DayOfWeek.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Woman.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Human.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Family.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework6/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/RoboCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/DomesticCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Fish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework6/Family.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/homework6/FamilyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" selection-start-line="10" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Homework8/Family.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/Homework8/FamilyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
