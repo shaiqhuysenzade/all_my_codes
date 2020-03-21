@@ -10,7 +10,7 @@ public class Family {
     private Human father;
     private List<Human> children;
     private Set<Pet> pet;
-    private Pet p;
+//    private Pet p;
 
     public Family(Human mother, Human father, Set<Pet> p) {
         this.mother = mother;
@@ -19,6 +19,7 @@ public class Family {
         mother.setFamily(this);
         father.setFamily(this);
     }
+    public Family(){}
 
     public Human getMother() {
         return mother;
@@ -50,6 +51,21 @@ public class Family {
         }
         return false;
     }
+    public boolean deleChildByObject(Human human){
+        if(human!=null){
+            children.remove(human);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean deleteChildByIndex(int index){
+        if(index>=0){
+            children.remove(index);
+            return true;
+        }
+        return false;
+    }
     public Set<Pet> getPet() {
         return pet;
     }
@@ -58,19 +74,19 @@ public class Family {
         this.pet = pet;
     }
 
-    public void greetPet() {
-        System.out.println("Привет, " + p.getNickname());
-    }
+//    public void greetPet() {
+//        System.out.println("Привет, " + p.getNickname());
+//    }
 
-    public void describePet() {
-        String v;
-        if (p.getTrickLevel() > 50) {
-            v = " очень хитрый";
-        } else {
-            v = " почти не хитрый";
-        }
-        System.out.println("У меня есть " + p.getSpecies() + ", ему " + p.getAge() + "  лет, он" + v);
-    }
+//    public void describePet() {
+//        String v;
+//        if (p.getTrickLevel() > 50) {
+//            v = " очень хитрый";
+//        } else {
+//            v = " почти не хитрый";
+//        }
+//        System.out.println("У меня есть " + p.getSpecies() + ", ему " + p.getAge() + "  лет, он" + v);
+//    }
 
     public int countOfFamily() {
         System.out.print("Count of Family is ");

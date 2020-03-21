@@ -39,15 +39,18 @@ class FamilyTest {
 
     @Test
     void addChild() {
+        assertTrue(f.addChild(son));
     }
 
     @Test
-    void deleteChildByIndex() {
+    void deleteChildByIndex()
+    {
         assertTrue(f.deleteChildByIndex(0));
     }
 
     @Test
-    void deleteChildByObject1() {
+    void deleteChildByObject1()
+    {
         assertTrue(f.deleteChildByObject2(children,son));
     }
 

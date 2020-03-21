@@ -71,17 +71,22 @@ public class Family {
     }
 
     //method for adding child(Human) to array of Children
-    public  Human[] addChild(Human child[], Human newChild) {
-        int n = child.length;
-        Human[] newChildArray = new Human[n + 1];
-        for (int i = 0; i < newChildArray.length; i++) {
-            if (i != n) {
-                newChildArray[i] = child[i];
-            } else {
-                newChildArray[i] = newChild;
+    public boolean addChild(Human newChild) {
+        int n = children.length;
+        if (children != null) {
+            Human[] newChildArray = new Human[n + 1];
+            for (int i = 0; i < newChildArray.length; i++) {
+                if (i != n) {
+                    newChildArray[i] = children[i];
+                } else {
+                    newChildArray[i] = newChild;
+                }
+
             }
+            children = newChildArray;
+            return true;
         }
-        return newChildArray;
+        return false;
     }
 
     //method for deleting child(Human) from array of Children by index
@@ -123,7 +128,7 @@ public class Family {
                 newChildArray[k++] = child[i];
 //                count++;
             }
-            children=newChildArray;
+            children = newChildArray;
             return true;
         }
         return false;

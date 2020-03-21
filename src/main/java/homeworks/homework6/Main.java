@@ -41,13 +41,16 @@ public class Main {
         Family f = new Family(mother, father);
         Human childArray[] = {child1};
         f.setChildren(childArray);
+        f.addChild( child2);
+        f.setChildren(childArray);
+
 
         //using method addChild() to add child2
-        f.setChildren(f.addChild(childArray, child2));
+//        f.setChildren();
         System.out.println(f.countOfFamily());
         System.out.println(f.toString());
         //open from comment  to delete second child from childArray
-        f.deleteChildByIndex(1);
+        f.deleteChildByIndex(0);
         f.deleteChildByObject1(child1);
 //        f.deleteChildByObject2(childArray,child2);
         //output family members
