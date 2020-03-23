@@ -1,6 +1,5 @@
-package homeworks.Homework8;
+package homeworks.Homework9.model;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
@@ -10,7 +9,14 @@ public class Family {
     private Human father;
     private List<Human> children;
     private Set<Pet> pet;
-//    private Pet p;
+
+    //    private Pet p;
+    public Family(Human mother, Human father) {
+        this.mother = mother;
+        this.father = father;
+        mother.setFamily(this);
+        father.setFamily(this);
+    }
 
     public Family(Human mother, Human father, Set<Pet> p) {
         this.mother = mother;
@@ -19,7 +25,9 @@ public class Family {
         mother.setFamily(this);
         father.setFamily(this);
     }
-    public Family(){}
+
+    public Family() {
+    }
 
     public Human getMother() {
         return mother;
@@ -44,28 +52,31 @@ public class Family {
     public void setChildren(List<Human> children) {
         this.children = children;
     }
-    public boolean addChild(Human human){
-        if(human!=null){
-        children.add(human);
-        return true;
+
+    public boolean addChild(Human human) {
+        if (human != null) {
+            children.add(human);
+            return true;
         }
         return false;
     }
-    public boolean deleChildByObject(Human human){
-        if(human!=null && human.getName()!=null){
+
+    public boolean deleChildByObject(Human human) {
+        if (human != null) {
             children.remove(human);
             return true;
         }
         return false;
     }
 
-    public boolean deleteChildByIndex(int index){
-        if(index>=0){
+    public boolean deleteChildByIndex(int index) {
+        if (index >= 0) {
             children.remove(index);
             return true;
         }
         return false;
     }
+
     public Set<Pet> getPet() {
         return pet;
     }
@@ -89,8 +100,10 @@ public class Family {
 //    }
 
     public int countOfFamily() {
-        System.out.print("Count of Family is ");
-        return 2 + children.size();
+        if (children != null) {
+            return 2 + children.size();
+        }
+        return 2;
     }
 
     @Override
@@ -100,7 +113,7 @@ public class Family {
         Family family = (Family) o;
         return Objects.equals(mother, family.mother) &&
                 Objects.equals(father, family.father) &&
-                Objects.equals(children, family.children) ;
+                Objects.equals(children, family.children);
     }
 
     @Override

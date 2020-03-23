@@ -1,10 +1,7 @@
-package homeworks.Homework8;
+package homeworks.Homework9.model;
 
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class Human {
     private Family family;
@@ -22,6 +19,11 @@ public class Human {
         this.name = name;
         this.surname = surname;
         this.year = year;
+    }
+
+    public Human(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
     }
 
     public Family getFamily() {
@@ -68,10 +70,36 @@ public class Human {
         return shedule;
     }
 
-    public void setShedule(Map<DayOfWeek, String> shedule) {
-        this.shedule = shedule;
+    public void setShedule(Map<DayOfWeek, String> schedule) {
+        this.shedule = schedule;
     }
 
+//    @Override
+//    protected void finalize() throws Throwable {
+//        System.out.println("This object was deleted" + this);
+//    }
+
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println("This object was deleted" + this);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Human human = (Human) o;
+        return Objects.equals(name, human.name) &&
+                Objects.equals(surname, human.surname);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(family, name, surname);
+    }
 
     @Override
     public String toString() {

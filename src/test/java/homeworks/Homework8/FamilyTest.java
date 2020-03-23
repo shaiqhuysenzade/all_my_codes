@@ -3,10 +3,7 @@ package homeworks.Homework8;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -30,10 +27,15 @@ class FamilyTest {
         mother = new Woman("Valide", "Nezirova", 1976);
         father = new Man("Xelil", "Nezirov", 1973);
         son = new Human("Rufet", "Nezirov", 2000);
-        son.setShedule(new String[][]{{DayOfWeek.Monday.name(), "coding"}, {DayOfWeek.Tuesday.name(), "go to school"},
-                {DayOfWeek.Wednesday.name(), "go to the gym"}, {DayOfWeek.Thursday.name(), "coding"},
-                {DayOfWeek.Friday.name(), "meeting friends"}, {DayOfWeek.Saturday.name(), "coding"},
-                {DayOfWeek.Sunday.name(), "coding"}});
+        Map<DayOfWeek, String> shedule = new HashMap<>();
+        shedule.put(DayOfWeek.Monday , "coding");
+        shedule.put(DayOfWeek.Tuesday , "go to school");
+        shedule.put(DayOfWeek.Wednesday,"go to the gym");
+        shedule.put(DayOfWeek.Thursday , "coding");
+        shedule.put(DayOfWeek.Friday , "meeting friends");
+        shedule.put(DayOfWeek.Saturday , "coding");
+        shedule.put(DayOfWeek.Sunday, "coding");
+        son.setShedule(shedule);
         daughter = new Human("Guler", "Nezirov", 2002);
         forFalseTest = new Human("Nizami", "Huseynov", 2007);
         dog = new Dog("Sasha ", 2,habits);
@@ -65,8 +67,8 @@ class FamilyTest {
     }
 
     @Test
-    void deleteChildByObjectFalse(){
-         Human forFalseTest=new Human("Nizami","Huseynov",2007);
+    void deleteWrongChildByObject(){
+         Human forFalseTest=new Human();
         assertFalse(f.deleChildByObject(forFalseTest));
     }
 

@@ -1,9 +1,6 @@
 package homeworks.Homework8;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,10 +8,15 @@ public class Main {
         Woman mother = new Woman("Gunay", "Mammedova", 1975);
         Man father = new Man("Namiq", "mammedov", 1973);
         Human son = new Human("Babek", "Mammedov", 2000);
-        son.setShedule(new String[][]{{DayOfWeek.Monday.name(), "coding"}, {DayOfWeek.Tuesday.name(), "go to school"},
-                {DayOfWeek.Wednesday.name(), "go to the gym"}, {DayOfWeek.Thursday.name(), "coding"},
-                {DayOfWeek.Friday.name(), "meeting friends"}, {DayOfWeek.Saturday.name(), "coding"},
-                {DayOfWeek.Sunday.name(), "coding"}});
+        Map<DayOfWeek, String> shedule = new HashMap<>();
+        shedule.put(DayOfWeek.Monday , "coding");
+        shedule.put(DayOfWeek.Tuesday , "go to school");
+        shedule.put(DayOfWeek.Wednesday,"go to the gym");
+        shedule.put(DayOfWeek.Thursday , "coding");
+        shedule.put(DayOfWeek.Friday , "meeting friends");
+        shedule.put(DayOfWeek.Saturday , "coding");
+        shedule.put(DayOfWeek.Sunday, "coding");
+        son.setShedule(shedule);
         Human daughter = new Human("Aysel", "Mammedova", 1998);
         List<Human> children = new ArrayList<>();
         children.add(son);

@@ -92,7 +92,7 @@ public class Family {
     //method for deleting child(Human) from array of Children by index
     public boolean deleteChildByIndex(int i) {
         int n = children.length - 1;
-        if (children != null) {
+        if (children != null && i > 0) {
             Human[] newChildArray = new Human[n];
             for (int k = 0; k < children.length; k++) {
                 if (k < i) {
@@ -104,8 +104,10 @@ public class Family {
             }
             children = newChildArray;
             return true;
+        } else {
+            return false;
         }
-        return false;
+
     }
 
     public int deleteChildByObject1(Human human) {

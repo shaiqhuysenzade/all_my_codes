@@ -45,7 +45,7 @@ class FamilyTest {
     @Test
     void deleteChildByIndex()
     {
-        assertTrue(f.deleteChildByIndex(0));
+        assertTrue(f.deleteChildByIndex(1));
     }
 
     @Test
@@ -55,11 +55,11 @@ class FamilyTest {
     }
 
     @Test
-    void deleteChildByIndexFalse() {
-        assertTrue(f.deleteChildByIndex(-4));
+    void deleteWrongChildByIndex() {
+        assertFalse(f.deleteChildByIndex(-4));
     }
     @Test
-    void deleteChildByObject1False() {
+    void deleteWrongChildByObject1() {
         assertTrue(f.deleteChildByObject2(children,forFalseTest));
     }
 
