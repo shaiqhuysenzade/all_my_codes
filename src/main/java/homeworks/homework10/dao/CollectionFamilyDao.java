@@ -5,6 +5,7 @@ import homeworks.homework10.model.Human;
 import homeworks.homework10.model.Pet;
 
 import java.time.LocalDate;
+import java.time.Period;
 import java.util.*;
 import java.util.stream.IntStream;
 
@@ -98,7 +99,7 @@ public class CollectionFamilyDao implements DAO {
                 break;
             } else {
                 for (int j = 0; j < families.get(i).getChildren().size(); j++) {
-                    if ((year - families.get(i).getChildren().get(j).getYear()) > age) {
+                    if (Period.between(LocalDate.ofEpochDay(families.get(i).getChildren().get(j).getYear()), LocalDate.now()).getYears()  > age) {
                         families.get(i).getChildren().remove(j);
                     }
                     if (families.isEmpty()) {
