@@ -1,7 +1,9 @@
 package homeworks.homework10;
 
 import homeworks.homework10.controller.FamilyController;
+import homeworks.homework10.dao.CollectionFamilyDao;
 import homeworks.homework10.model.*;
+import homeworks.homework10.service.FamilyService;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -46,32 +48,34 @@ public class Main {
         fc.createNewFamilyController(mother2, father2);
 
         //born and adopt  child
-        fc.bornChildController(family1, "Damet", "Nezrin");
         fc.adoptChildController(family1, h);
+        fc.bornChildController(family1, "Damet", "Nezrin");
+//        fc.ad;
 
 
         //add pet
         fc.addPetController(0, domesticCat);
-        fc.addPetController(1, dog);
+//        fc.addPetController(1, dog);
 
         //count families and members
-        fc.countController();
+        System.out.println(fc.countController());
         fc.countFamiliesWithMemberNumberController(0);
 
         //get families and bigger and less then and by id
-        fc.getFamiliesBiggerThanController(2);
-        fc.getFamiliesLessThanController(3);
-        fc.getFamilyByIdController(1);
-        fc.getPetsController(1);
+//        fc.getFamiliesBiggerThanController(2);
+//        fc.getFamiliesLessThanController(3);
+//       System.out.println( fc.getFamilyByIdController(1));
+//        System.out.println(fc.getPetsController(1));
 
         //delete methods
         fc.deleteAllChildrenOlderThenController(4);
-        fc.deleteFamilyByIndexController(1);
+//        fc.deleteFamilyByIndexController(1);
 
         //display all families
         fc.displayAllFamiliesController();
 //        fc.getAllFamiliesController();
-        System.out.println(mother1.describeAge());
+//        System.out.println(mother1.describeAge());
+//        fc.getFamiliesBiggerThanController(2);
 
     }
 

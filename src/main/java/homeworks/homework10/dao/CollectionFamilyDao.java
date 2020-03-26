@@ -7,6 +7,7 @@ import homeworks.homework10.model.Pet;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class CollectionFamilyDao implements DAO {
@@ -17,8 +18,8 @@ public class CollectionFamilyDao implements DAO {
     @Override
     public List<Family> getAllFamilies() {
         IntStream.range(0, families.size())
-                .mapToObj(index -> index + 1 + ")" + "Family")
-                .forEach(System.out::println);
+                .mapToObj(index -> index + 1 + ")" + families)
+                .collect(Collectors.toList());
         return families;
 
     }
@@ -30,104 +31,104 @@ public class CollectionFamilyDao implements DAO {
                 .forEach(System.out::println);
     }
 
-    @Override
-    public void getFamiliesBiggerThan(int countOfFamily) {
-        for (int i = 0; i < families.size(); i++) {
-            if (families.get(i).countOfFamily() > countOfFamily) {
-                System.out.println(families.get(i));
-            }
-        }
-    }
+//    @Override
+//    public void getFamiliesBiggerThan(int countOfFamily) {
+//        for (int i = 0; i < families.size(); i++) {
+//            if (families.get(i).countOfFamily() > countOfFamily) {
+//                System.out.println(families.get(i));
+//            }
+//        }
+//    }
+//
+//    @Override
+//    public void getFamiliesLessThan(int countOfFamily) {
+//        for (int i = 0; i < families.size(); i++) {
+//            if (families.get(i).countOfFamily() < countOfFamily) {
+//                System.out.println(families.get(i));
+//            }
+//        }
+//    }
+//
+//    int count = 0;
 
-    @Override
-    public void getFamiliesLessThan(int countOfFamily) {
-        for (int i = 0; i < families.size(); i++) {
-            if (families.get(i).countOfFamily() < countOfFamily) {
-                System.out.println(families.get(i));
-            }
-        }
-    }
+//    @Override
+//    public void countFamiliesWithMemberNumber(int countOfFamily) {
+//        for (int i = 0; i < families.size(); i++) {
+//            if (families.get(i).countOfFamily() == countOfFamily) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+//    }
 
-    int count = 0;
+//    @Override
+//    public void createNewFamily(Human mother, Human father) {
+//        Family f = new Family(mother, father);
+//        saveFamily(f);
+//    }
 
-    @Override
-    public void countFamiliesWithMemberNumber(int countOfFamily) {
-        for (int i = 0; i < families.size(); i++) {
-            if (families.get(i).countOfFamily() == countOfFamily) {
-                count++;
-            }
-        }
-        System.out.println(count);
-    }
+//    @Override
+//    public void bornChild(Family family, String man, String woman) {
+//        Human son = new Human();
+//        son.setName(man);
+//        son.setSurname(family.getFather().getSurname());
+//        son.setYear(LocalDate.now().getYear());
+//        Human daughter = new Human();
+//        daughter.setName(woman);
+//        daughter.setSurname(family.getFather().getSurname());
+//        daughter.setYear(LocalDate.now().getYear());
+//        int n = families.indexOf(family);
+//        if (families.get(n).getChildren() == null) {
+//            List<Human> newHumans = new ArrayList<>();
+//            if (new Random().nextBoolean()) {
+//                newHumans.add(son);
+//            } else {
+//                newHumans.add(daughter);
+//            }
+//            families.get(n).setChildren(newHumans);
+//        } else {
+//            families.get(n).getChildren().add(son);
+//            families.get(n).getChildren().add(daughter);
+//        }
+//    }
 
-    @Override
-    public void createNewFamily(Human mother, Human father) {
-        Family f = new Family(mother, father);
-        saveFamily(f);
-    }
-
-    @Override
-    public void bornChild(Family family, String man, String woman) {
-        Human son = new Human();
-        son.setName(man);
-        son.setSurname(family.getFather().getSurname());
-        son.setYear(LocalDate.now().getYear());
-        Human daughter = new Human();
-        daughter.setName(woman);
-        daughter.setSurname(family.getFather().getSurname());
-        daughter.setYear(LocalDate.now().getYear());
-        int n = families.indexOf(family);
-        if (families.get(n).getChildren() == null) {
-            List<Human> newHumans = new ArrayList<>();
-            if (new Random().nextBoolean()) {
-                newHumans.add(son);
-            } else {
-                newHumans.add(daughter);
-            }
-            families.get(n).setChildren(newHumans);
-        } else {
-            families.get(n).getChildren().add(son);
-            families.get(n).getChildren().add(daughter);
-        }
-    }
-
-    @Override
-    public void deleteAllChildrenOlderThen(int age) {
-        int year = LocalDate.now().getYear();
-        for (int i = 0; i < families.size(); i++) {
-            if (families.get(i).getChildren() == null) {
-                break;
-            } else {
-                for (int j = 0; j < families.get(i).getChildren().size(); j++) {
-                    if (Period.between(LocalDate.ofEpochDay(families.get(i).getChildren().get(j).getYear()), LocalDate.now()).getYears()  > age) {
-                        families.get(i).getChildren().remove(j);
-                    }
-                    if (families.isEmpty()) {
-                        break;
-                    }
-                }
-            }
-        }
-    }
-
-    @Override
-    public int count() {
-        count = families.size();
-        return count;
-    }
-
-    @Override
-    public void adoptChild(Family family, Human child) {
-        int n = families.indexOf(family);
-        if (families.get(n).getChildren() == null) {
-            List<Human> newHumans = new ArrayList<>();
-            newHumans.add(child);
-            families.get(n).setChildren(newHumans);
-        } else {
-            families.get(n).getChildren().add(child);
-        }
-
-    }
+//    @Override
+//    public void deleteAllChildrenOlderThen(int age) {
+//        for (int i = 0; i < families.size(); i++) {
+//            if (families.get(i).getChildren() == null) {
+//                break;
+//            } else {
+//                for (int j = 0; j < families.get(i).getChildren().size(); j++) {
+//                    if (Period.between(LocalDate.ofEpochDay(families.get(i).getChildren().get(j).getYear()), LocalDate.now()).getYears() > age) {
+//                        families.get(i).getChildren().remove(j);
+//
+//                    }
+//                    if (families.isEmpty()) {
+//                        break;
+//                    }
+//                }
+//            }
+//        }
+//    }
+//
+//    @Override
+//    public int count() {
+//        count = families.size();
+//        return count;
+//    }
+//
+//    @Override
+//    public void adoptChild(Family family, Human child) {
+//        int n = families.indexOf(family);
+//        if (families.get(n).getChildren() == null) {
+//            List<Human> newHumans = new ArrayList<>();
+//            newHumans.add(child);
+//            families.get(n).setChildren(newHumans);
+//        } else {
+//            families.get(n).getChildren().add(child);
+//        }
+//
+//    }
 
     @Override
     public Family getFamilyByIndex(int index) {
@@ -139,21 +140,21 @@ public class CollectionFamilyDao implements DAO {
 
     }
 
-    @Override
-    public Set<Pet> getPets(int indexOfFamily) {
-        return families.get(indexOfFamily).getPet();
-    }
-
-    @Override
-    public void addPet(int indexOfFamily, Pet pet) {
-        if (families.get(indexOfFamily).getPet() == null) {
-            Set<Pet> newPets = new HashSet<>();
-            newPets.add(pet);
-            families.get(indexOfFamily).setPet(newPets);
-        } else {
-            families.get(indexOfFamily).getPet().add(pet);
-        }
-    }
+//    @Override
+//    public Set<Pet> getPets(int indexOfFamily) {
+//        return families.get(indexOfFamily).getPet();
+//    }
+//
+//    @Override
+//    public void addPet(int indexOfFamily, Pet pet) {
+//        if (families.get(indexOfFamily).getPet() == null) {
+//            Set<Pet> newPets = new HashSet<>();
+//            newPets.add(pet);
+//            families.get(indexOfFamily).setPet(newPets);
+//        } else {
+//            families.get(indexOfFamily).getPet().add(pet);
+//        }
+//    }
 
     @Override
     public boolean deleteFamily(int index) {

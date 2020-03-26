@@ -9,7 +9,10 @@ import java.util.List;
 import java.util.Set;
 
 public class FamilyController {
-    FamilyService fs = new FamilyService();
+    FamilyService fs = new FamilyService() ;
+//    public FamilyController(FamilyService fs){
+//        this.fs = fs;
+//    }
 
     public void saveFamilyController(Family family) {
         fs.saveFamily(family);
