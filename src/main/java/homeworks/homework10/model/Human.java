@@ -129,7 +129,9 @@ public class Human {
         return "Human{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", year=" + LocalDate.ofEpochDay(birthDate).format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) +
+                ", year:" + LocalDate.ofEpochDay(birthDate).format(DateTimeFormatter.ofPattern("yyyy")) +
+                ", month:" + LocalDate.ofEpochDay(birthDate).format(DateTimeFormatter.ofPattern("MM")) +
+                ", day:"+ LocalDate.ofEpochDay(birthDate).format(DateTimeFormatter.ofPattern("dd"))+
                 ", iq = " + iq +
                 ", shedule=" + shedule +
                 '}';
