@@ -33,14 +33,15 @@ public class ex {
 //                return b.compareTo(a);
 //            }
 //        });
-        LinkedList<String> x =  new LinkedList<>();
-        x.add("k");
-        x.add("l");
-        ArrayList<Integer> numberList = new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
-
-        numberList.stream()
-                .filter(i -> i % 2 == 0)
-                .forEach(i-> System.out.println(i*2));
-
+//        LinkedList<String> x =  new LinkedList<>();
+//        x.add("k");
+//        x.add("l");
+//        ArrayList<Integer> numberList = new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
+//
+//        numberList.stream()
+//                .filter(i -> i % 2 == 0)
+//                .forEach(i-> System.out.println(i*2));
+Random r = new Random();
+        System.out.println(r.nextBoolean());
     }
 }

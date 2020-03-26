@@ -19,7 +19,7 @@ public class CollectionFamilyDao implements DAO {
     public List<Family> getAllFamilies() {
         IntStream.range(0, families.size())
                 .mapToObj(index -> index + 1 + ")" + "Family")
-                .forEach(System.out::println);
+                .collect(Collectors.toList());
         return families;
 
     }

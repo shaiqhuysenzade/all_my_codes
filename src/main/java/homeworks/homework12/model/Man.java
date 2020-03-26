@@ -4,6 +4,9 @@ public final class Man extends Human {
     public Man(String name, String surname, String year) {
         super(name, surname, year);
     }
+    public Man(String name, String surname, String year,int iq) {
+        super(name, surname, year,iq);
+    }
 
     @Override
     public void greetPet() {

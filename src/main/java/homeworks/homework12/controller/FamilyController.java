@@ -51,8 +51,8 @@ public class FamilyController {
         fs.adoptChild(family, human);
     }
 
-    public List<Family> deleteAllChildrenOlderThenController(int year) {
-        return fs.deleteAllChildrenOlderThen(year);
+    public void deleteAllChildrenOlderThenController(int year) {
+         fs.deleteAllChildrenOlderThen(year);
     }
 
     public int countController() {
