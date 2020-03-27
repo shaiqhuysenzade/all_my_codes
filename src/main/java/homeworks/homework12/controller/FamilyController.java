@@ -1,5 +1,6 @@
 package homeworks.homework12.controller;
 
+import homeworks.homework12.handle.exception.FamilyOverflowException;
 import homeworks.homework12.model.Family;
 import homeworks.homework12.model.Human;
 import homeworks.homework12.model.Pet;
@@ -40,11 +41,14 @@ public class FamilyController {
     }
 
     public boolean deleteFamilyByIndexController(int index) {
-       return  fs.deleteFamilyByIndex(index);
+        return fs.deleteFamilyByIndex(index);
     }
 
-    public void bornChildController(Family family, String man, String woman) {
+    public void bornChildController(Family family, String man, String woman) throws FamilyOverflowException {
+        int index = fs.getAllFamilies().indexOf(family);
         fs.bornChild(family, man, woman);
+        if(fs.getAllFamilies().get(index).countOfFamily()>7) throw new FamilyOverflowException("Size bigger then 7");
+
     }
 
     public void adoptChildController(Family family, Human human) {
@@ -52,7 +56,7 @@ public class FamilyController {
     }
 
     public void deleteAllChildrenOlderThenController(int year) {
-         fs.deleteAllChildrenOlderThen(year);
+        fs.deleteAllChildrenOlderThen(year);
     }
 
     public int countController() {
