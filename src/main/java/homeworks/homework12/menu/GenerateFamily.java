@@ -1,4 +1,4 @@
-package homeworks.homework12;
+package homeworks.homework12.menu;
 
 import homeworks.homework12.controller.FamilyController;
 import homeworks.homework12.model.Family;

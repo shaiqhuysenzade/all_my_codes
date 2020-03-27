@@ -1,4 +1,4 @@
-package homeworks.homework12;
+package homeworks.homework12.menu;
 
 import homeworks.homework12.controller.FamilyController;
 import homeworks.homework12.handle.exception.FamilyOverflowException;
@@ -149,12 +149,16 @@ public class ActionMenu {
                                 }
                                 in6.nextLine();
                             } while (index2 <= 0);
-                            Scanner in7 = new Scanner(System.in);
-                            System.out.println("Boy's name is");
-                            String nameForBoy = in7.nextLine();
-                            System.out.println("Girl's name is ");
-                            String nameForGirl = in7.nextLine();
-                            fc.bornChildController(fc.getFamilyByIdController(index2 - 1), nameForBoy, nameForGirl);
+                            try {
+                                Scanner in7 = new Scanner(System.in);
+                                System.out.println("Boy's name is");
+                                String nameForBoy = in7.nextLine();
+                                System.out.println("Girl's name is ");
+                                String nameForGirl = in7.nextLine();
+                                fc.bornChildController(fc.getFamilyByIdController(index2 - 1), nameForBoy, nameForGirl);
+                            } catch (FamilyOverflowException f) {
+                                System.out.println(f.getMessage());
+                            }
                             break;
                         case 2:
                             System.out.println("You choose adopt a child");
@@ -169,31 +173,35 @@ public class ActionMenu {
                                 }
                                 in8.nextLine();
                             } while (index3 <= 0);
-                            Scanner in9= new Scanner(System.in);
-                            System.out.println("Is it a boy?\nPlease answer YES or NO!");
-                            String answer = in9.nextLine();
-                            if(answer.equalsIgnoreCase("YES")){
-                                System.out.println("Boy's name is");
-                                String nameForBoy1 = in9.nextLine();
-                                System.out.println("His surname is ");
-                                String surnameForBoy1 =in9.nextLine();
-                                System.out.println("His birth date is ");
-                                String birthdateForBoy1 =in9.nextLine();
-                                System.out.println("His iq is ");
-                                int iq = in9.nextInt();
-                                Man boy = new Man(nameForBoy1,surnameForBoy1,birthdateForBoy1,iq);
-                                fc.adoptChildController(fc.getFamilyByIdController(index3 - 1),boy);
-                            }else{
-                                System.out.println("Girl's name is");
-                                String nameForGirl1 = in9.nextLine();
-                                System.out.println("Her surname is ");
-                                String surnameForGirl1 =in9.nextLine();
-                                System.out.println("Her birth date is ");
-                                String birthdateForGirl1 =in9.nextLine();
-                                System.out.println("Her iq is ");
-                                int iq = in9.nextInt();
-                                Woman girl = new Woman(nameForGirl1,surnameForGirl1,birthdateForGirl1,iq);
-                                fc.adoptChildController(fc.getFamilyByIdController(index3 - 1),girl);
+                            try {
+                                Scanner in9 = new Scanner(System.in);
+                                System.out.println("Is it a boy?\nPlease answer YES or NO!");
+                                String answer = in9.nextLine();
+                                if (answer.equalsIgnoreCase("YES")) {
+                                    System.out.println("Boy's name is");
+                                    String nameForBoy1 = in9.nextLine();
+                                    System.out.println("His surname is ");
+                                    String surnameForBoy1 = in9.nextLine();
+                                    System.out.println("His birth date is ");
+                                    String birthdateForBoy1 = in9.nextLine();
+                                    System.out.println("His iq is ");
+                                    int iq = in9.nextInt();
+                                    Man boy = new Man(nameForBoy1, surnameForBoy1, birthdateForBoy1, iq);
+                                    fc.adoptChildController(fc.getFamilyByIdController(index3 - 1), boy);
+                                } else {
+                                    System.out.println("Girl's name is");
+                                    String nameForGirl1 = in9.nextLine();
+                                    System.out.println("Her surname is ");
+                                    String surnameForGirl1 = in9.nextLine();
+                                    System.out.println("Her birth date is ");
+                                    String birthdateForGirl1 = in9.nextLine();
+                                    System.out.println("Her iq is ");
+                                    int iq = in9.nextInt();
+                                    Woman girl = new Woman(nameForGirl1, surnameForGirl1, birthdateForGirl1, iq);
+                                    fc.adoptChildController(fc.getFamilyByIdController(index3 - 1), girl);
+                                }
+                            } catch (FamilyOverflowException f) {
+                                System.out.println(f.getMessage());
                             }
                             break;
                         case 3:

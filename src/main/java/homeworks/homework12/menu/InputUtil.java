@@ -1,4 +1,4 @@
-package homeworks.homework12;
+package homeworks.homework12.menu;
 
 import java.util.Scanner;
 

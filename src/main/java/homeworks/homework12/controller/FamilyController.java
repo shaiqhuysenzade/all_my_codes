@@ -47,12 +47,26 @@ public class FamilyController {
     public void bornChildController(Family family, String man, String woman) throws FamilyOverflowException {
         int index = fs.getAllFamilies().indexOf(family);
         fs.bornChild(family, man, woman);
-        if(fs.getAllFamilies().get(index).countOfFamily()>7) throw new FamilyOverflowException("Size bigger then 7");
+        StringBuilder sb = new StringBuilder();
+        sb.append("======================================================================================================\n");
+        sb.append("|                                      Family members can not be more then 7                         |\n");
+        sb.append("======================================================================================================\n");
+        if (fs.getAllFamilies().get(index).countOfFamily() > 6)
+            throw new FamilyOverflowException(sb.toString());
+
 
     }
 
     public void adoptChildController(Family family, Human human) {
+        int index = fs.getAllFamilies().indexOf(family);
         fs.adoptChild(family, human);
+        StringBuilder sb = new StringBuilder();
+        sb.append("======================================================================================================\n");
+        sb.append("|                                      Family members can not be more then 7                           |\n");
+        sb.append("======================================================================================================\n");
+        if (fs.getAllFamilies().get(index).countOfFamily() > 6)
+            throw new FamilyOverflowException(sb.toString());
+
     }
 
     public void deleteAllChildrenOlderThenController(int year) {
