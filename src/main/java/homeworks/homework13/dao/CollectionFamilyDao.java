@@ -46,7 +46,7 @@ public class CollectionFamilyDao implements DAO {
 
     @Override
     public void addToFile() throws IOException {
-        File f = new File("C:\\Users\\hp\\Documents\\parking\\all_my_codes\\src\\main\\java\\homeworks\\homework13\\database\\family.txt");
+        File f = new File("src\\main\\java\\homeworks\\homework13\\database\\family.txt");
         FileOutputStream fos = new FileOutputStream(f);
         ObjectOutputStream oos = new ObjectOutputStream(fos);
         oos.writeObject(families);
@@ -56,7 +56,7 @@ public class CollectionFamilyDao implements DAO {
 
     @Override
     public void loadData() throws IOException, ClassNotFoundException {
-        File f = new File("C:\\Users\\hp\\Documents\\parking\\all_my_codes\\src\\main\\java\\homeworks\\homework13\\database\\family.txt");
+        File f = new File("src\\main\\java\\homeworks\\homework13\\database\\family.txt");
         FileInputStream fis = new FileInputStream(f);
         ObjectInputStream ois = new ObjectInputStream(fis);
         families=(List<Family>) ois.readObject();

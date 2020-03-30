@@ -20,24 +20,5 @@ public interface DAO {
 
     void displayAllFamilies();
 
-    void getFamiliesBiggerThan(int countOfFamily);
-
-    void getFamiliesLessThan(int countOfFamily);
-
-    void countFamiliesWithMemberNumber(int countOfFamilies);
-
-    void createNewFamily(Human mother, Human father);
-
-    void bornChild(Family family, String man, String woman);
-
-    void adoptChild(Family family, Human human);
-
-    List<Family>  deleteAllChildrenOlderThen(int year);
-
-    int count();
-
-    Set<Pet> getPets(int indexOfFamily);
-
-    void addPet(int indexOfFamily, Pet pet);
 
 }
