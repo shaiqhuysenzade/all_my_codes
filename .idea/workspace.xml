@@ -5,9 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18809622-4f82-4c02-9970-e13850e39d8c" name="Default" comment="--homework5 modyfied it adding delete method to delete child by index  --">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homeworks/homework13/service/FamilyServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/userName.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/users.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/users2.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/collections/col01/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/collections/col01/Collections01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/functional_interface/FunctionalInterface01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/functional_interface/FunctionalInterface02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/functional_interface/FunctionalInterface03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/functional_interface/own/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/functional_interface/own/CalculateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/streams/Stream01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/lambda/streams/Stream02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/login/servlets/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/login/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/method/Ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/method/MethodAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/method/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/string/StringAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/string/StringOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/talents_5/KeyTHisWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/talents_5/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/talents_5/set_get/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/talents_5/set_get/SetterGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atHome/talents_6/LinkedStackOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day01/FreeMarkerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day01/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day01/TemplateEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day01/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day01/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day02/FullnameServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day02/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day02/TemplateEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/PhoneModelDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/enum_classes/PhoneSqlEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/enum_classes/UserSqlEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/dbmanager/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/PhoneModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/Statistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/jdbc/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/repository/StatisticRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/repository/StatisticRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/forWeb/day03/repository/enum_classes/StatSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/GraphTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/XGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/XGraphApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/SnakeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/SnakeArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/BreakingRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/CompareTheTriplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/DiagonalDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/Encryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/FindDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/SimpleArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warmup/hackerank/TreesSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/all_my_codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/all_my_codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeworks/homework13/database/family.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworks/homework13/database/family.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +89,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/all_my_codes$XGraphApp.ic" NAME="XGraphApp Coverage Results" MODIFIED="1586653496155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>graph.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FamilyService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework9/service/FamilyService.java">
+      <file leaf-file-name="FullnameServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day02/FullnameServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state relative-caret-position="391">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/UploadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,32 +131,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FamilyService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/service/FamilyService.java">
+      <file leaf-file-name="userName.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/userName.ftl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="users.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/users.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2045">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectionFamilyDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/dao/CollectionFamilyDao.java">
+      <file leaf-file-name="ServerApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day02/ServerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FamilyServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/homework13/service/FamilyServiceTest.java">
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/dbmanager/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="203" column="106" selection-start-line="203" selection-start-column="106" selection-end-line="203" selection-end-column="106" />
+            <state relative-caret-position="221">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/jdbc/DatabaseConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateEngine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/TemplateEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FreeMarkerServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/FreeMarkerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/ServerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -67,11 +214,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="FxmlFile" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -82,65 +229,67 @@
       <find>getFamilyById</find>
       <find>displa</find>
       <find>count</find>
+      <find>final</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/model/Man.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/model/Woman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/model/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/model/Family.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Family.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/InputUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/ActionMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/hommework12/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/GenerateFamily.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework10/dao/CollectionFamilyDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework10/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework10/service/FamilyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework10/controller/FamilyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework10/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework9/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework9/dao/CollectionFamilyDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework9/service/FamilyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework9/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/ex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework10/model/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework10/model/Man.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Man.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Woman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/Example.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/service/FamilyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/handle/exception/FamilyOverflowException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/controller/FamilyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/ActionMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/menu/ActionMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Dog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/DomesticCat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Family.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Fish.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Man.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Pet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/RoboCat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Woman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Species.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/controller/FamilyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/menu/ActionMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework12/dao/CollectionFamilyDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/homeworks/homework9/service/FamilyServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/service/FamilyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homeworks/homework13/dao/CollectionFamilyDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/homeworks/homework13/service/FamilyServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/talents_5/KeyTHisWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/talents_5/SetterGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/talents_5/set_get/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/talents_5/set_get/SetterGetter.java" />
+        <option value="$PROJECT_DIR$/content/users.html" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day01/TemplateEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day01/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day01/FreeMarkerServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day01/ServerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day02/TemplateEngine.java" />
+        <option value="$PROJECT_DIR$/content/users2.html" />
+        <option value="$PROJECT_DIR$/content/upload.html" />
+        <option value="$PROJECT_DIR$/content/userName.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day02/ServerApp.java" />
+        <option value="$PROJECT_DIR$/content/users2.ftl" />
+        <option value="$PROJECT_DIR$/from_user/whole_req.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day01/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day02/FullnameServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/Marks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/DatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/SimpleArraySum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/CompareTheTriplets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/TreesSolution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/Example.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/talents_6/StackLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/talents_6/LinkedStackOfStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/FindDigits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedListApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedList2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/DAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/enum_classes/UserSqlEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/dbmanager/Database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/PhoneMode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/enum_classes/PhoneSqlEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/TimaeRange.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/Statistic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/PhoneModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/dao/PhoneModelDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/repository/StatisticRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/repository/enum_classes/StatSql.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/repository/StatisticRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/BreakingRecords.java" />
+        <option value="$PROJECT_DIR$/src/main/java/warmup/hackerank/Example1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forWeb/day03/jdbc/DatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/content/users.ftl" />
       </list>
     </option>
   </component>
@@ -181,6 +330,21 @@
             <path>
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="from_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -202,7 +366,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
+              <item name="atHome" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
@@ -210,8 +374,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework9" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
@@ -219,8 +382,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework13" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
@@ -228,9 +391,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework13" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
@@ -238,8 +400,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework13" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,47 +419,78 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework13" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="dbmanager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="warmup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all_my_codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all_my_codes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,13 +498,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="C:/step_project_flight" />
+    <property name="last_opened_file_path" value="C:/Programming/JAVA/LinkedIN/lamba_expressions/Ex_Files_Lambda_Exp_Java/Ex_Files_Lambda_Exp_Java/Exercise Files/Ch01/01_02/Lambdas_01_02" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -312,21 +514,25 @@
       <recent name="homeworks.homework6" />
       <recent name="homeworks.homework5" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="forWeb.day03.entities" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="forWeb.day02" />
       <recent name="homeworks.hommework12" />
       <recent name="homeworks.homework6" />
       <recent name="generation" />
       <recent name="homeworks.Homework5" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\parking\all_my_codes\content" />
       <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks\homework13" />
       <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks\homework12" />
       <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks\homework11" />
       <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks\homework10" />
-      <recent name="C:\Users\hp\Documents\parking\all_my_codes\src\main\java\homeworks\Homework9\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,146 +547,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FamilyServiceTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks.hommework12.Main" />
+  <component name="RunManager" selected="Application.BreakingRecords">
+    <configuration name="BreakingRecords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="warmup.hackerank.BreakingRecords" />
       <module name="all_my_codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworks.hommework12.*" />
+          <option name="PATTERN" value="warmup.hackerank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks.homework5.Main" />
+    <configuration name="DatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forWeb.day03.jdbc.DatabaseConnection" />
       <module name="all_my_codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworks.homework5.*" />
+          <option name="PATTERN" value="forWeb.day03.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Encryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="warmup.hackerank.Encryption" />
+      <module name="all_my_codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="warmup.hackerank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PhoneModelDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forWeb.day03.dao.PhoneModelDAO" />
+      <module name="all_my_codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forWeb.day03.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="UserDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forWeb.day03.dao.UserDAO" />
+      <module name="all_my_codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forWeb.day03.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="XLinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atHome.linked_list.XLinkedListApp" />
+      <module name="all_my_codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atHome.linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="FamilyServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="all_my_codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeworks.homework13.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="homeworks.homework13.service" />
-      <option name="MAIN_CLASS_NAME" value="homeworks.homework13.service.FamilyServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FamilyServiceTest.addToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="all_my_codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeworks.homework13.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="homeworks.homework13.service" />
-      <option name="MAIN_CLASS_NAME" value="homeworks.homework13.service.FamilyServiceTest" />
-      <option name="METHOD_NAME" value="addToFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FamilyServiceTest.deleteAllChildrenOlderThen (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="all_my_codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeworks.homework9.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="homeworks.homework9.service" />
-      <option name="MAIN_CLASS_NAME" value="homeworks.homework9.service.FamilyServiceTest" />
-      <option name="METHOD_NAME" value="deleteAllChildrenOlderThen" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FamilyServiceTest.deleteAllChildrenOlderThen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="all_my_codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeworks.homework13.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="homeworks.homework13.service" />
-      <option name="MAIN_CLASS_NAME" value="homeworks.homework13.service.FamilyServiceTest" />
-      <option name="METHOD_NAME" value="deleteAllChildrenOlderThen" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FamilyServiceTest.loadData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="all_my_codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeworks.homework13.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="homeworks.homework13.service" />
-      <option name="MAIN_CLASS_NAME" value="homeworks.homework13.service.FamilyServiceTest" />
-      <option name="METHOD_NAME" value="loadData" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -521,19 +656,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FamilyServiceTest.deleteAllChildrenOlderThen" />
-      <item itemvalue="JUnit.FamilyServiceTest.deleteAllChildrenOlderThen (1)" />
-      <item itemvalue="JUnit.FamilyServiceTest.addToFile" />
-      <item itemvalue="JUnit.FamilyServiceTest.loadData" />
-      <item itemvalue="JUnit.FamilyServiceTest" />
+      <item itemvalue="Application.XLinkedListApp" />
+      <item itemvalue="Application.UserDAO" />
+      <item itemvalue="Application.PhoneModelDAO" />
+      <item itemvalue="Application.Encryption" />
+      <item itemvalue="Application.BreakingRecords" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FamilyServiceTest" />
-        <item itemvalue="JUnit.FamilyServiceTest.loadData" />
-        <item itemvalue="JUnit.FamilyServiceTest.addToFile" />
-        <item itemvalue="JUnit.FamilyServiceTest.deleteAllChildrenOlderThen" />
-        <item itemvalue="JUnit.FamilyServiceTest.deleteAllChildrenOlderThen (1)" />
+        <item itemvalue="Application.BreakingRecords" />
+        <item itemvalue="Application.Encryption" />
+        <item itemvalue="Application.PhoneModelDAO" />
+        <item itemvalue="Application.UserDAO" />
+        <item itemvalue="Application.XLinkedListApp" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +691,23 @@
       <workItem from="1583653212101" duration="3949000" />
       <workItem from="1584465932172" duration="151853000" />
       <workItem from="1585228327084" duration="8834000" />
-      <workItem from="1585307402090" duration="26918000" />
+      <workItem from="1585307402090" duration="28310000" />
+      <workItem from="1585842625046" duration="9024000" />
+      <workItem from="1586322854463" duration="4582000" />
+      <workItem from="1586463162468" duration="31939000" />
+      <workItem from="1586829278042" duration="15198000" />
+      <workItem from="1587328360174" duration="15598000" />
+      <workItem from="1587639470084" duration="10882000" />
+      <workItem from="1587904621118" duration="12451000" />
+      <workItem from="1588307763107" duration="27789000" />
+      <workItem from="1588791684254" duration="18188000" />
+      <workItem from="1588959203492" duration="221000" />
+      <workItem from="1588959554413" duration="9581000" />
+      <workItem from="1589227579661" duration="17870000" />
+      <workItem from="1589581853343" duration="585000" />
+      <workItem from="1589777260613" duration="4775000" />
+      <workItem from="1589826441821" duration="3215000" />
+      <workItem from="1589887151731" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="--simple homework1--">
       <created>1581277470892</created>
@@ -646,27 +797,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FamilyServiceTest_deleteAllChildrenOlderThen - 2020.03.30 at 10h 14m 02s.xml">
-      <configuration name="FamilyServiceTest.deleteAllChildrenOlderThen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_deleteAllChildrenOlderThen_(1) - 2020.03.30 at 10h 14m 22s.xml">
-      <configuration name="FamilyServiceTest.deleteAllChildrenOlderThen (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_deleteAllChildrenOlderThen - 2020.03.30 at 10h 14m 47s.xml">
-      <configuration name="FamilyServiceTest.deleteAllChildrenOlderThen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_addToFile - 2020.03.30 at 10h 21m 36s.xml">
-      <configuration name="FamilyServiceTest.addToFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_addToFile - 2020.03.30 at 10h 22m 50s.xml">
-      <configuration name="FamilyServiceTest.addToFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_addToFile - 2020.03.30 at 10h 23m 16s.xml">
-      <configuration name="FamilyServiceTest.addToFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 30m 19s.xml">
-      <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 31m 06s.xml">
       <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
     </history-entry>
@@ -676,9 +806,30 @@
     <history-entry file="FamilyServiceTest_addToFile - 2020.03.30 at 10h 33m 30s.xml">
       <configuration name="FamilyServiceTest.addToFile" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 34m 47s.xml">
+      <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 35m 05s.xml">
+      <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 35m 41s.xml">
+      <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 35m 56s.xml">
+      <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 36m 03s.xml">
+      <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_loadData - 2020.03.30 at 10h 36m 20s.xml">
+      <configuration name="FamilyServiceTest.loadData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest - 2020.03.30 at 10h 36m 32s.xml">
+      <configuration name="FamilyServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294057000" />
+    <option name="totallyTimeSpent" value="481346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,65 +842,66 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.32843137" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24659607" side_tool="true" weight="0.3529412" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.29738563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" weight="0.39438945" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.50980395" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49481866" visible="true" weight="0.015128593" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.7777778" />
-      <window_info id="Structure" order="1" sideWeight="0.5051814" side_tool="true" weight="0.20045386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82575756" visible="true" weight="0.22012103" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info id="Structure" order="1" sideWeight="0.17424242" side_tool="true" weight="0.18456884" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39768976" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7772277" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32843137" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.12254902" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" weight="0.39438945" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.32843137" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.19742814" />
-      <window_info id="Structure" order="1" sideWeight="0.50247526" side_tool="true" weight="0.19440243" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82575756" visible="true" weight="0.20726173" />
+      <window_info id="Structure" order="1" sideWeight="0.17424242" side_tool="true" weight="0.18456884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32843137" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.50980395" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24659607" side_tool="true" weight="0.3529412" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39768976" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7772277" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.32838285" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -786,8 +938,14 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedList.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="45" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -795,408 +953,355 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework10/dao/CollectionFamilyDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/entities.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework11/dao/CollectionFamilyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="186" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="186" selection-end-column="5" />
+        <state relative-caret-position="765">
+          <caret line="56" column="81" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework9/dao/DAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/CompareTheTriplets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/SimpleArraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/TreesSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework9/dao/CollectionFamilyDao.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atHome/talents_6/LinkedStackOfStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework9/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/FindDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework10/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="91" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedListApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework10/model/Man.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/javax/management/relation/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/entities/TimaeRange.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/entities/PhoneModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/entities/Statistic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/dao/enum_classes/PhoneSqlEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework10/service/FamilyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="167" column="5" selection-start-line="19" selection-start-column="3" selection-end-line="167" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework10/model/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="27" column="106" lean-forward="true" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Man.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Woman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/model/Family.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="20" />
-          <folding>
-            <element signature="e#2751#2752#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="375" column="18" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="18" />
-          <folding>
-            <element signature="e#15711#15712#0" expanded="true" />
-            <element signature="e#15747#15748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/controller/FamilyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="51" column="120" selection-start-line="51" selection-start-column="120" selection-end-line="51" selection-end-column="120" />
-          <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/handle/exception/FamilyOverflowException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/ex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/menu/GenerateFamily.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/menu/InputUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/hommework12/controller/FamilyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/DomesticCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Family.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Fish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Man.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/RoboCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Woman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/DayOfWeek.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/dao/enum_classes/UserSqlEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/model/Species.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/repository/enum_classes/StatSql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="697">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/menu/InputUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/repository/StatisticRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="187">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atHome/linked_list/XLinkedList2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="33" column="17" selection-start-line="32" selection-start-column="51" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="487" column="6" selection-start-line="487" selection-start-column="6" selection-end-line="487" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/BreakingRecords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graph/GraphTraverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/family.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/graph/XGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graph/XGraphApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/warmup/hackerank/Example1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/dao/PhoneModelDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/dao/DAO.java">
+    <entry file="file://$PROJECT_DIR$/content/users2.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="23" selection-start-line="23" selection-start-column="2" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/service/FamilyService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar!/freemarker/template/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+        <state relative-caret-position="193">
+          <caret line="1101" column="20" selection-start-line="1101" selection-start-column="20" selection-end-line="1101" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/dao/DAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day02/TemplateEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="102">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/dao/CollectionFamilyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/repository/StatisticRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework12/menu/ActionMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-943">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="524">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/exception/FamilyOverflowException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/dao/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/menu/ActionMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="191" column="61" lean-forward="true" selection-start-line="191" selection-start-column="61" selection-end-line="191" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/controller/FamilyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/menu/GenerateFamily.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/database/family.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/service/FamilyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2045">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework9/service/FamilyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        <state relative-caret-position="357">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/homework9/service/FamilyServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/content/userName.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day02/ServerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="175" column="36" lean-forward="true" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homeworks/homework13/dao/CollectionFamilyDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/dbmanager/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/homeworks/homework13/service/FamilyServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="203" column="106" selection-start-line="203" selection-start-column="106" selection-end-line="203" selection-end-column="106" />
+        <state relative-caret-position="221">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day03/jdbc/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/ServerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/FreeMarkerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day02/FullnameServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forWeb/day01/TemplateEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/users.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
